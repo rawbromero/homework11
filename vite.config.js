@@ -3,8 +3,8 @@ import vue from '@vitejs/plugin-vue'
 import path from 'path'
 
 // https://vitejs.dev/config/
-base: '/homework11-api/'
 export default defineConfig({
+  base: '/Homework11-api/',
   plugins: [vue()],
   resolve: {
     alias: {
